@@ -1,1 +1,1 @@
-# ES6starPractise
+尝试用ES6标准写的星星评分，没有做兼容，请在Chrome浏览器预览效果，有错误，请留言指出Thanks♪(･ω･)ﾉ
