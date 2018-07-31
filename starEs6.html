@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>star evaluate ES6</title>
+	<style>
+		html, body, p, {
+			margin: 0px;
+			padding: 0px;
+			font-size: 14px;
+			color: #333;
+			box-sizing: border-box;
+		}
+
+		a {
+			color: #333;
+			text-decoration: none;
+		}
+
+		.star-a {
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+			cursor: pointer;
+			background: url(images/star1.png) center no-repeat;
+		}
+
+		.star-a-hover {
+			background: url(images/star2.png) center no-repeat;
+		}
+		#otherStar {
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div id="starBox"></div>
+	<div id="otherStar"></div>
+	<script src="starEs6.js"></script>
+	<script>
+		let tmpStar = new Stars("starBox");
+		let otherStar = new Stars("otherStar", 10, 5);
+	</script>
+</body>
+</html>
